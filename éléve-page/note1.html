@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بطاقات الأعداد</title>
+    <link rel="icon" href="../Img/Home.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card {
+            width: 250px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+        }
+        h2 {
+            color: #c444ce;
+        }
+        .download-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #c444ce;
+            color: #fff;
+            cursor: pointer;
+            margin-top: 10px;
+            display: block;
+            text-decoration: none;
+            width: 80%;
+        
+        }
+        .download-button:hover {
+            background-color: #5a066c;
+        }
+        .logo-container {
+            width: 100%; /* Ensure full width */
+            margin-bottom: 20px; /* Add space between logo and cards */
+        }
+        .logo {
+            max-width: 100%; /* Ensure the logo fits within its container */
+            margin: 0 auto; /* Center the logo horizontally */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="../Img/logo2.png" class="logo">
+        </div>
+        <div class="card">
+            <h2>اختبارات</h2>
+            <p>الثلاثي الأول</p>
+            <a href="../éléve-page/notet.html" class="download-button" download> النتائج</a>
+        </div>
+        <div class="card">
+            <h2>اختبارات</h2>
+            <p>الثلاثي الثاني</p>
+            <a href="#" class="download-button" download> النتائج</a>
+        </div>
+        <div class="card">
+            <h2>اختبارات</h2>
+            <p>الثلاثي الثالث </p>
+            <a href="#" class="download-button" download> النتائج</a>
+        </div>
+    </div>
+</body>
+</html>
